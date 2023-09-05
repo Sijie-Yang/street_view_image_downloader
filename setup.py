@@ -16,7 +16,7 @@ setup(
     description='A module to download images from Google Street View.',
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
-    url='https://github.com/sijie-yang/streetview-downloader',
+    url='https://github.com/Sijie-Yang/streetview-downloader',
     license="MIT",
     classifiers=[
         "Programming Language :: Python :: 3",
