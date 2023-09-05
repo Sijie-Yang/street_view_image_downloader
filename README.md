@@ -1,11 +1,11 @@
-### streetview-image-downloader
+### street_view_image_downloader
 
-The `streetview-image-downloader` package provides an easy way to download images from Google Street View, based on specified latitude and longitude. One of the highlighted features is the ability to switch between multiple API keys after a set number of images, useful for projects requiring a large number of downloads.
+The `street_view_image_downloader` package provides an easy way to download images from Google Street View, based on specified latitude and longitude. One of the highlighted features is the ability to switch between multiple API keys after a set number of images, useful for projects requiring a large number of downloads.
 
 ## Installation
 
 ```bash
-pip install streetview-image-downloader
+pip install street_view_image_downloader
 ```
 
 Before you use this package, make sure you have the following libraries installed:
@@ -20,7 +20,7 @@ pip install pillow
 ### 1. Initialize the StreetViewDownloader:
 
 ```python
-from downloader import StreetViewDownloader
+from street_view_image_downloader import StreetViewDownloader
 api_key = "YOUR_API_KEY"
 downloader = StreetViewDownloader(api_key)
 ```

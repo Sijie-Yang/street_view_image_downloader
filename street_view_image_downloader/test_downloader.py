@@ -1,4 +1,4 @@
-from downloader import StreetViewDownloader
+from streetview-image-downloader import StreetViewDownloader
 
 # Initialize the StreetViewDownloader class with your API key
 api_key = "YOUR_FIRST_API_KEY"

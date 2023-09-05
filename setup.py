@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='streetview-image-downloader',
-    version='0.1.1',
+    name='street_view_image_downloader',
+    version='0.1',
     packages=find_packages(),
     install_requires=[
         'requests>=2.25.1',
