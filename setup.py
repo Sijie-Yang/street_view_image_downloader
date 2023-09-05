@@ -2,14 +2,11 @@ from setuptools import setup, find_packages
 
 setup(
     name='streetview-image-downloader',
-    version='0.1',
+    version='0.1.1',
     packages=find_packages(),
     install_requires=[
-        'requests',
-        'PIL',
-        'csv',
-        'os',
-        'io'
+        'requests>=2.25.1',
+        'Pillow>=8.0.0'
     ],
     author='Sijie Yang',
     author_email='sijiey@u.nus.edu',
