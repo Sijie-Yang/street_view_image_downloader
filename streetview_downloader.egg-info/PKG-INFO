@@ -1,6 +1,20 @@
-### streetview-image-downloader
+Metadata-Version: 2.1
+Name: streetview-downloader
+Version: 0.1
+Summary: A module to download images from Google Street View.
+Home-page: https://github.com/Sijie-Yang/streetview-downloader
+Author: Sijie Yang
+Author-email: sijiey@u.nus.edu
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
 
-The `streetview-image-downloader` package provides an easy way to download images from Google Street View, based on specified latitude and longitude. One of the highlighted features is the ability to switch between multiple API keys after a set number of images, useful for projects requiring a large number of downloads.
+### streetview-downloader
+
+The `streetview-downloader` package provides an easy way to download images from Google Street View, based on specified latitude and longitude. One of the highlighted features is the ability to switch between multiple API keys after a set number of images, useful for projects requiring a large number of downloads.
 
 ## Installation
 
